@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="SignalRPaygateService20230424095904" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^B:\\Paygate\\paygate3DSecure\\SignalRPaygateService\\SignalRPaygateService\\obj\\Release\\netcoreapp3\.1\\PubTmp\\Out\\$" />
+  </parameter>
+</parameters>

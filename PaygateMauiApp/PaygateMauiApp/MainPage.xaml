@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewmodel="clr-namespace:PaygateMauiApp.ViewModels"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             x:DataType="viewmodel:MainPageViewModel"
+             x:Class="PaygateMauiApp.MainPage">
+
+    <ScrollView>
+        <StackLayout Orientation="Vertical" Spacing="25">
+            <Label Text="Payment - Credit card" FontSize="22" FontAttributes="Bold" HorizontalOptions="StartAndExpand" Padding="0,0,0,15"/>
+            <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="StartAndExpand">
+
+                <VerticalStackLayout>
+
+                    <Label Text="Last name"
+                   FontSize="16" FontAttributes="Bold"/>
+
+                    <Entry
+                        x:Name="lastNameEntry"
+                Text="{Binding CardModel.LastName}"
+                SemanticProperties.HeadingLevel="Level1"
+                MinimumWidthRequest="250"
+                BackgroundColor="AliceBlue"
+                FontSize="18"
+                HorizontalOptions="StartAndExpand">
+                        <Entry.Behaviors>
+                            <toolkit:MultiValidationBehavior x:Name="lastNameValidator" Flags="ValidateOnAttaching,ValidateOnValueChanged" InvalidStyle="{StaticResource InvalidEntryStyle}">
+                                
+                                <toolkit:TextValidationBehavior MinimumLength="1" Flags="ValidateOnAttaching,ValidateOnValueChanged" toolkit:MultiValidationBehavior.Error="Last name field is mandatory"/>
+                            </toolkit:MultiValidationBehavior>
+
+                        </Entry.Behaviors>
+                    </Entry>
+
+                </VerticalStackLayout>
+
+                <VerticalStackLayout>
+
+                    <Label Text="First name"
+                   FontSize="16" FontAttributes="Bold"/>
+
+                    <Entry
+                        x:Name="firstNameEntry"
+                Text="{Binding CardModel.FirstName}"
+                SemanticProperties.HeadingLevel="Level1"
+                MinimumWidthRequest="250"
+                BackgroundColor="AliceBlue"
+                FontSize="18"
+                HorizontalOptions="StartAndExpand">
+                        <Entry.Behaviors>
+                            <toolkit:MultiValidationBehavior x:Name="firstNameValidator" Flags="ValidateOnAttaching,ValidateOnValueChanged" InvalidStyle="{StaticResource InvalidEntryStyle}">
+
+                                <toolkit:TextValidationBehavior MinimumLength="1" Flags="ValidateOnAttaching,ValidateOnValueChanged" toolkit:MultiValidationBehavior.Error="First name field is mandatory"/>
+                            </toolkit:MultiValidationBehavior>
+
+                        </Entry.Behaviors>
+                    </Entry>
+
+                </VerticalStackLayout>
+                <VerticalStackLayout>
+
+                    <Label Text="Email address"
+                   FontSize="16" FontAttributes="Bold"/>
+
+                    <Entry
+                        x:Name="emailEntry"
+                Text="{Binding CardModel.Email}"
+                SemanticProperties.HeadingLevel="Level1"
+                MinimumWidthRequest="250"
+                BackgroundColor="AliceBlue"
+                FontSize="18"
+                HorizontalOptions="StartAndExpand">
+                        <Entry.Behaviors>
+                            <toolkit:MultiValidationBehavior x:Name="emailValidator" Flags="ValidateOnAttaching,ValidateOnValueChanged" InvalidStyle="{StaticResource InvalidEntryStyle}">
+
+                                <toolkit:TextValidationBehavior MinimumLength="1" Flags="ValidateOnAttaching,ValidateOnValueChanged" toolkit:MultiValidationBehavior.Error="Email field is mandatory"/>
+                                <toolkit:EmailValidationBehavior Flags="ValidateOnAttaching,ValidateOnValueChanged" toolkit:MultiValidationBehavior.Error="Email format is invalid"/>
+                            </toolkit:MultiValidationBehavior>
+
+                        </Entry.Behaviors>
+                    </Entry>
+
+                </VerticalStackLayout>
+
+
+                <VerticalStackLayout>
+
+                    <Label Text="Card number"
+                   FontSize="16" FontAttributes="Bold"/>
+
+
+
+                    <Entry
+                        
+                Text="{Binding CardModel.CardNumber}"
+                SemanticProperties.HeadingLevel="Level1"
+                  x:Name="cardNumberEntry"
+                        TextChanged="cardNumberEntry_TextChanged"
+                MinimumWidthRequest="250"
+                BackgroundColor="AliceBlue"
+                FontSize="18"
+                HorizontalOptions="StartAndExpand"
+                >
+                        <Entry.Behaviors>
+                            <toolkit:MultiValidationBehavior x:Name="cardNumberValidator" Flags="ValidateOnAttaching,ValidateOnValueChanged" InvalidStyle="{StaticResource InvalidEntryStyle}">
+                                <toolkit:TextValidationBehavior RegexPattern="^[0-9]*$" Flags="ValidateOnAttaching,ValidateOnValueChanged" toolkit:MultiValidationBehavior.Error="Only numbers allowed"/>
+                                <toolkit:TextValidationBehavior MinimumLength="1" Flags="ValidateOnAttaching,ValidateOnValueChanged" toolkit:MultiValidationBehavior.Error="Card number field is mandatory"/>
+                            </toolkit:MultiValidationBehavior>
+
+                        </Entry.Behaviors>
+                    </Entry>
+
+
+                    <Label Text="16-digital card number"
+                   FontSize="9" TextColor="Gray"/>
+
+                </VerticalStackLayout>
+                <VerticalStackLayout>
+
+                    <Label Text="Card expiry"
+                   FontSize="16" FontAttributes="Bold"/>
+
+                    <Entry
+                Text="{Binding CardModel.CardExpiry}"
+                        x:Name="cardExpiryEntry"
+                        TextChanged="cardExpiryEntry_TextChanged"
+                SemanticProperties.HeadingLevel="Level1"
+                MinimumWidthRequest="250"
+                BackgroundColor="AliceBlue"
+                FontSize="18"
+                HorizontalOptions="StartAndExpand">
+                        <Entry.Behaviors>
+                            <toolkit:MultiValidationBehavior x:Name="cardExpiryValidator" Flags="ValidateOnAttaching,ValidateOnValueChanged" InvalidStyle="{StaticResource InvalidEntryStyle}">
+                                <toolkit:TextValidationBehavior RegexPattern="^[0-9]*$" Flags="ValidateOnAttaching,ValidateOnValueChanged" toolkit:MultiValidationBehavior.Error="Only numbers allowed"/>
+                                <toolkit:TextValidationBehavior MinimumLength="1" Flags="ValidateOnAttaching,ValidateOnValueChanged" toolkit:MultiValidationBehavior.Error="Card expiry field is mandatory"/>
+                            </toolkit:MultiValidationBehavior>
+
+                        </Entry.Behaviors>
+                    </Entry>
+
+                    <Label Text="e.g 112023 (11-2023)"
+                   FontSize="9" TextColor="Gray"/>
+
+                </VerticalStackLayout>
+                <VerticalStackLayout>
+
+                    <Label Text="Cvv"
+                   FontSize="16" FontAttributes="Bold"/>
+
+                    <Entry
+               
+                TextChanged="cvvValidator_TextChanged"
+                     x:Name="cvvEntry"
+                Text="{Binding CardModel.Cvv}"
+                SemanticProperties.HeadingLevel="Level1"
+                MinimumWidthRequest="250"
+                BackgroundColor="AliceBlue"
+                FontSize="18"
+                HorizontalOptions="StartAndExpand">
+                        <Entry.Behaviors>
+                            <toolkit:MultiValidationBehavior x:Name="cvvValidator" Flags="ValidateOnAttaching,ValidateOnValueChanged" InvalidStyle="{StaticResource InvalidEntryStyle}">
+                                <toolkit:TextValidationBehavior RegexPattern="^[0-9]*$" Flags="ValidateOnAttaching,ValidateOnValueChanged" toolkit:MultiValidationBehavior.Error="Only numbers allowed"/>
+                                <toolkit:TextValidationBehavior MinimumLength="1" Flags="ValidateOnAttaching,ValidateOnValueChanged" toolkit:MultiValidationBehavior.Error="Cvv field is mandatory"/>
+                                <toolkit:TextValidationBehavior  MaximumLength="3"  Flags="ValidateOnAttaching,ValidateOnValueChanged" toolkit:MultiValidationBehavior.Error="Only 3 digits allowed"/>
+                            </toolkit:MultiValidationBehavior>
+
+                        </Entry.Behaviors>
+                    </Entry>
+
+                    <Label Text="3-digits found on back of the card"
+                   FontSize="9" TextColor="Gray"/>
+
+                </VerticalStackLayout>
+
+
+
+                <VerticalStackLayout>
+
+                    <Label Text="Amount"
+                   FontSize="16" FontAttributes="Bold"/>
+
+                    <Entry
+                Text="{Binding CardModel.Amount}"
+                        TextChanged="amountEntry_TextChanged"
+                x:Name="amountEntry"
+                SemanticProperties.HeadingLevel="Level2"
+                MinimumWidthRequest="250"
+                BackgroundColor="AliceBlue"
+                FontSize="18"
+                HorizontalOptions="StartAndExpand">
+                        <Entry.Behaviors>
+                            <toolkit:MultiValidationBehavior x:Name="amountValidator" Flags="ValidateOnAttaching,ValidateOnValueChanged" InvalidStyle="{StaticResource InvalidEntryStyle}">
+                                <toolkit:TextValidationBehavior RegexPattern="^[0-9]*$" Flags="ValidateOnAttaching,ValidateOnValueChanged" toolkit:MultiValidationBehavior.Error="Only numbers allowed"/>
+                                <toolkit:TextValidationBehavior MinimumLength="1" Flags="ValidateOnAttaching,ValidateOnValueChanged" toolkit:MultiValidationBehavior.Error="Ammount field is mandatory"/>
+                            </toolkit:MultiValidationBehavior>
+
+                        </Entry.Behaviors>
+                    </Entry>
+
+                </VerticalStackLayout>
+
+                <ActivityIndicator x:Name="activityIndicator" IsVisible="false" IsRunning="false" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"
+                             Color="{StaticResource Primary}"/>
+
+                <Button
+                x:Name="CounterBtn"
+                Text="Pay Now"
+                Clicked="Button_Clicked"
+                CommandParameter="{Binding CardModel}"
+                SemanticProperties.Hint="Pay with credit card details"
+                HorizontalOptions="StartAndExpand" />
+
+                <!--<Button Text="Text Btn" Clicked="Button_Clicked"
+                        CommandParameter="{Binding CardModel}"/>-->
+
+
+            </VerticalStackLayout>
+
+        </StackLayout>
+
+    </ScrollView>
+
+</ContentPage>

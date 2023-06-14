@@ -1,0 +1,16 @@
+B:\Paygate\paygate3DSecure\MerchantApi_Paygate\MerchantApi_Paygate\obj\Release\netcoreapp3.1\PubTmp\Out\MerchantApi_Paygate.exe
+B:\Paygate\paygate3DSecure\MerchantApi_Paygate\MerchantApi_Paygate\obj\Release\netcoreapp3.1\PubTmp\Out\appsettings.Development.json
+B:\Paygate\paygate3DSecure\MerchantApi_Paygate\MerchantApi_Paygate\obj\Release\netcoreapp3.1\PubTmp\Out\appsettings.json
+B:\Paygate\paygate3DSecure\MerchantApi_Paygate\MerchantApi_Paygate\obj\Release\netcoreapp3.1\PubTmp\Out\Templates\SingleFollowUpRequest.xml
+B:\Paygate\paygate3DSecure\MerchantApi_Paygate\MerchantApi_Paygate\obj\Release\netcoreapp3.1\PubTmp\Out\Templates\SinglePaymentRequest.xml
+B:\Paygate\paygate3DSecure\MerchantApi_Paygate\MerchantApi_Paygate\obj\Release\netcoreapp3.1\PubTmp\Out\Templates\SingleVaultRequest.xml
+B:\Paygate\paygate3DSecure\MerchantApi_Paygate\MerchantApi_Paygate\obj\Release\netcoreapp3.1\PubTmp\Out\MerchantApi_Paygate.dll
+B:\Paygate\paygate3DSecure\MerchantApi_Paygate\MerchantApi_Paygate\obj\Release\netcoreapp3.1\PubTmp\Out\MerchantApi_Paygate.deps.json
+B:\Paygate\paygate3DSecure\MerchantApi_Paygate\MerchantApi_Paygate\obj\Release\netcoreapp3.1\PubTmp\Out\MerchantApi_Paygate.runtimeconfig.json
+B:\Paygate\paygate3DSecure\MerchantApi_Paygate\MerchantApi_Paygate\obj\Release\netcoreapp3.1\PubTmp\Out\MerchantApi_Paygate.pdb
+B:\Paygate\paygate3DSecure\MerchantApi_Paygate\MerchantApi_Paygate\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.Bcl.AsyncInterfaces.dll
+B:\Paygate\paygate3DSecure\MerchantApi_Paygate\MerchantApi_Paygate\obj\Release\netcoreapp3.1\PubTmp\Out\Newtonsoft.Json.dll
+B:\Paygate\paygate3DSecure\MerchantApi_Paygate\MerchantApi_Paygate\obj\Release\netcoreapp3.1\PubTmp\Out\RestSharp.dll
+B:\Paygate\paygate3DSecure\MerchantApi_Paygate\MerchantApi_Paygate\obj\Release\netcoreapp3.1\PubTmp\Out\System.Runtime.CompilerServices.Unsafe.dll
+B:\Paygate\paygate3DSecure\MerchantApi_Paygate\MerchantApi_Paygate\obj\Release\netcoreapp3.1\PubTmp\Out\System.Text.Encodings.Web.dll
+B:\Paygate\paygate3DSecure\MerchantApi_Paygate\MerchantApi_Paygate\obj\Release\netcoreapp3.1\PubTmp\Out\System.Text.Json.dll

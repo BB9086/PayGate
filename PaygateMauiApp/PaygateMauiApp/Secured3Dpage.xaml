@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewmodel="clr-namespace:PaygateMauiApp.ViewModels"
+             x:Class="PaygateMauiApp.Secured3Dpage"
+             x:DataType="viewmodel:Secured3DViewModel"
+             Title="Secured3Dpage">
+    <VerticalStackLayout>
+        <WebView>
+            <WebView.Source>
+                <HtmlWebViewSource Html="{Binding CardResponseModel.Secure3DHtml}" />
+            </WebView.Source>
+        </WebView>
+    </VerticalStackLayout>
+</ContentPage>
