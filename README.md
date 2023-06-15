@@ -36,11 +36,18 @@ https://docs.paygate.co.za/#testing-2 <br />
 ![anguar app](https://github.com/BB9086/PayGate/assets/118169200/eb8c12ea-d2e0-45a4-aed3-ea31f7516278)
 
 ## Mobile app - .NET MAUI
-<img src="https://github.com/BB9086/PayGate/assets/118169200/d6b91710-01c0-4d4d-ab92-f0d9749e4081.jpg" alt="alt text" width="40%" height="40%">
-<img src="https://github.com/BB9086/PayGate/assets/118169200/2f34043b-5991-4123-9d34-dba1af89ee5b.jpg" alt="alt text" width="40%" height="40%">
-<img src="https://github.com/BB9086/PayGate/assets/118169200/fb60986e-2906-4e8a-8442-2eb1b29fef86.jpg" alt="alt text" width="40%" height="40%">
-<img src="https://github.com/BB9086/PayGate/assets/118169200/335e724e-0364-4b02-9ee1-fff8d029364f.jpg" alt="alt text" width="40%" height="40%">
-<img src="https://github.com/BB9086/PayGate/assets/118169200/700de3a8-1410-41f0-bc5f-d04ef9fcb9a3.jpg" alt="alt text" width="40%" height="40%">
+#### Steps in the payment request process - Mastercard
+###### Login Page
+<img src="https://github.com/BB9086/PayGate/assets/118169200/d6b91710-01c0-4d4d-ab92-f0d9749e4081.jpg" alt="alt text" width="40%" height="40%"><br />
+###### Login Page
+<img src="https://github.com/BB9086/PayGate/assets/118169200/2f34043b-5991-4123-9d34-dba1af89ee5b.jpg" alt="alt text" width="40%" height="40%"><br />
+#### Steps in the payment request process - Mastercard
+###### Login Page
+<img src="https://github.com/BB9086/PayGate/assets/118169200/fb60986e-2906-4e8a-8442-2eb1b29fef86.jpg" alt="alt text" width="40%" height="40%"><br />
+###### Login Page
+<img src="https://github.com/BB9086/PayGate/assets/118169200/335e724e-0364-4b02-9ee1-fff8d029364f.jpg" alt="alt text" width="40%" height="40%"><br />
+###### Login Page
+<img src="https://github.com/BB9086/PayGate/assets/118169200/700de3a8-1410-41f0-bc5f-d04ef9fcb9a3.jpg" alt="alt text" width="40%" height="40%"><br />
 
 
 
