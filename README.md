@@ -36,12 +36,12 @@ https://docs.paygate.co.za/#testing-2 <br />
 ![anguar app](https://github.com/BB9086/PayGate/assets/118169200/eb8c12ea-d2e0-45a4-aed3-ea31f7516278)
 
 ## Mobile app - .NET MAUI
-#### Steps in the payment request process - Mastercard
+#### Steps in the payment request process (without 3D Secure authentication page) - Mastercard
 ###### Card Details
 <kbd><img src="https://github.com/BB9086/PayGate/assets/118169200/d6b91710-01c0-4d4d-ab92-f0d9749e4081.jpg" alt="alt text" width="40%" height="40%"></kbd><br />
 ###### Payment is approved
 <kbd><img src="https://github.com/BB9086/PayGate/assets/118169200/2f34043b-5991-4123-9d34-dba1af89ee5b.jpg" alt="alt text" width="40%" height="40%"></kbd><br />
-#### Steps in the payment request process - Visa card
+#### Steps in the payment request process (with 3D Secure authentication page) - Visa card
 ###### Card Details
 <kbd><img src="https://github.com/BB9086/PayGate/assets/118169200/fb60986e-2906-4e8a-8442-2eb1b29fef86.jpg" alt="alt text" width="40%" height="40%"></kbd><br />
 ###### 3D Secure authentication page
