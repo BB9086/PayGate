@@ -3,7 +3,7 @@
   <PropertyGroup>
     <IsFirstTimeProjectOpen>False</IsFirstTimeProjectOpen>
     <ActiveDebugFramework>net6.0-android</ActiveDebugFramework>
-    <ActiveDebugProfile>Pixel 2 Q 10.0 - API 29 (Android 10.0 - API 29)</ActiveDebugProfile>
+    <ActiveDebugProfile>Samsung SM-J530F (Android 8.1 - API 27)</ActiveDebugProfile>
     <SelectedPlatformGroup>Emulator</SelectedPlatformGroup>
     <DefaultDevice>pixel_2_q_10_0_-_api_29</DefaultDevice>
   </PropertyGroup>

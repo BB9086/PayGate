@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "B:\\Paygate\\paygate3DSecure\\SignalRPaygateService\\SignalRPaygateService\\SignalRPaygateService.csproj": {}
+    "D:\\MAUI\\PayGate\\GitHub\\SignalRPaygateService\\SignalRPaygateService\\SignalRPaygateService.csproj": {}
   },
   "projects": {
-    "B:\\Paygate\\paygate3DSecure\\SignalRPaygateService\\SignalRPaygateService\\SignalRPaygateService.csproj": {
+    "D:\\MAUI\\PayGate\\GitHub\\SignalRPaygateService\\SignalRPaygateService\\SignalRPaygateService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "B:\\Paygate\\paygate3DSecure\\SignalRPaygateService\\SignalRPaygateService\\SignalRPaygateService.csproj",
+        "projectUniqueName": "D:\\MAUI\\PayGate\\GitHub\\SignalRPaygateService\\SignalRPaygateService\\SignalRPaygateService.csproj",
         "projectName": "SignalRPaygateService",
-        "projectPath": "B:\\Paygate\\paygate3DSecure\\SignalRPaygateService\\SignalRPaygateService\\SignalRPaygateService.csproj",
-        "packagesPath": "C:\\Users\\Blagoje\\.nuget\\packages\\",
-        "outputPath": "B:\\Paygate\\paygate3DSecure\\SignalRPaygateService\\SignalRPaygateService\\obj\\",
+        "projectPath": "D:\\MAUI\\PayGate\\GitHub\\SignalRPaygateService\\SignalRPaygateService\\SignalRPaygateService.csproj",
+        "packagesPath": "C:\\Users\\blagoje\\.nuget\\packages\\",
+        "outputPath": "D:\\MAUI\\PayGate\\GitHub\\SignalRPaygateService\\SignalRPaygateService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Blagoje\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\blagoje\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -66,10 +66,17 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.31, 3.1.31]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -78,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
