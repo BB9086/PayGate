@@ -18,8 +18,8 @@ For more info, please visit: https://docs.paygate.co.za/#payhost
 https://docs.paygate.co.za/#testing-2 <br />
 
 **Steps in the payment request process:**
+![1](https://github.com/BB9086/PayGate/assets/118169200/492f6cd4-d517-42ec-bdb0-994ca5a846f9)
 
-![cardpayment_process_flow](https://github.com/BB9086/PayGate/assets/118169200/a3e388dc-c2fe-4c86-b95f-d42fad4d3d68)
 
 1. Customer enters card details on the merchant’s web site / system.
 2. Merchant sends a payment request message to PayHost. The following steps are only required if a “Secure” message is received in step 3.
@@ -33,19 +33,19 @@ https://docs.paygate.co.za/#testing-2 <br />
 
 ## Web app - Angular
 #### Payment request / Payment result
-![anguar app](https://github.com/BB9086/PayGate/assets/118169200/eb8c12ea-d2e0-45a4-aed3-ea31f7516278)
+![2](https://github.com/BB9086/PayGate/assets/118169200/9febf1df-5c07-4b56-864e-1bf2ed31242a)
 
 ## Mobile app - .NET MAUI
 #### Steps in the payment request process (without 3D Secure authentication page) - Mastercard
 ###### Card Details
-<kbd><img src="https://github.com/BB9086/PayGate/assets/118169200/d6b91710-01c0-4d4d-ab92-f0d9749e4081.jpg" alt="alt text" width="40%" height="40%"></kbd><br />
+<kbd><img src="https://github.com/BB9086/PayGate/assets/118169200/31b361e9-04cf-437c-9852-beb76d788a85.jpg" alt="alt text" width="40%" height="40%"></kbd><br />
 ###### Payment is approved
-<kbd><img src="https://github.com/BB9086/PayGate/assets/118169200/2f34043b-5991-4123-9d34-dba1af89ee5b.jpg" alt="alt text" width="40%" height="40%"></kbd><br />
+<kbd><img src="https://github.com/BB9086/PayGate/assets/118169200/94535aa5-75c4-4f9e-9429-977601041083.jpg" alt="alt text" width="40%" height="40%"></kbd><br />
 #### Steps in the payment request process (with 3D Secure authentication page) - Visa card
 ###### Card Details
-<kbd><img src="https://github.com/BB9086/PayGate/assets/118169200/fb60986e-2906-4e8a-8442-2eb1b29fef86.jpg" alt="alt text" width="40%" height="40%"></kbd><br />
+<kbd><img src="https://github.com/BB9086/PayGate/assets/118169200/a574261b-fcbd-4052-82f9-c9da35ffb7c4.jpg" alt="alt text" width="40%" height="40%"></kbd><br />
 ###### 3D Secure authentication page
-<kbd><img src="https://github.com/BB9086/PayGate/assets/118169200/335e724e-0364-4b02-9ee1-fff8d029364f.jpg" alt="alt text" width="40%" height="40%"></kbd><br />
+<kbd><img src="https://github.com/BB9086/PayGate/assets/118169200/7ba4f595-3bd5-4ab9-9662-d3833a08849e.jpg" alt="alt text" width="40%" height="40%"></kbd><br />
 ###### Payment is approved 
-<kbd><img src="https://github.com/BB9086/PayGate/assets/118169200/700de3a8-1410-41f0-bc5f-d04ef9fcb9a3.jpg" alt="alt text" width="40%" height="40%"></kbd><br />
+<kbd><img src="https://github.com/BB9086/PayGate/assets/118169200/5f629d75-161c-4100-98d8-dcb80fd21ad2.jpg" alt="alt text" width="40%" height="40%"></kbd><br />
 
